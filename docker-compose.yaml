@@ -1,5 +1,9 @@
 services:
 
+  redis:
+    image: redis:7
+    container_name: twitter-clone-redis
+
   api:
     build:
       context: ./twitter-clone-backend
