@@ -24,7 +24,7 @@ services:
     ports:
       - 8080:80
     volumes:
-      - /var/www/hazemgamal.uk.to/html:/app/dist
+      - /var/www/hazemgamal.uk.to/media:/usr/share/nginx/media
 
 volumes:
   frontend-build:
