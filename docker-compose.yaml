@@ -13,7 +13,7 @@ services:
     volumes:	    
       - /var/www/hazemgamal.uk.to/media:/project/media
     ports:
-      - 8000:80
+      - 8000:8000
 
   frontend:
     build:
